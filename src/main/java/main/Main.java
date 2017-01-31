@@ -64,7 +64,7 @@ public class Main extends JFrame{
                         i-=1;
                     }
                 }
-                log.addText("Finished Tagging.");
+                log.addText("Finished Tagging.\n");
                 log.updateArea();
                 revalidate();
                 repaint();
