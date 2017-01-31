@@ -50,7 +50,7 @@ public class Main extends JFrame{
 
                     if(tagSingleFile(fileButton.getFile())==0) {
                         fileButton.markDone();
-                        log.addText(fileButton.getFileName()+ " tagged succesfully!.\n");
+                        log.addText(fileButton.getFileName()+ " tagged succesfully!\n");
 
                     }else{
                         log.addText("Failed to tag " + fileButton.getFileName() +". Try renaming the file?\n");
@@ -64,7 +64,7 @@ public class Main extends JFrame{
                         i-=1;
                     }
                 }
-                log.addText("Finished Tagging.\n");
+                log.addText("Finished tagging.\n");
                 log.updateArea();
                 revalidate();
                 repaint();
